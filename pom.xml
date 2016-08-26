@@ -3,12 +3,12 @@
   <groupId>com.tutorial.hibernate</groupId>
   <artifactId>Hibernate5</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
   <dependencies>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.0.2.Final</version>
+            <version>5.2.2.Final</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -16,7 +16,7 @@
             <version>5.1.37</version>
         </dependency>
     </dependencies>
-    
+
      <build>
         <plugins>
             <plugin>
@@ -24,7 +24,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.4.0</version>
                 <configuration>
-                    <mainClass>com.blogspot.aknowakowski.App</mainClass>
+                    <mainClass>com.hibernate.tutorial.mainclass.MainClass</mainClass>
                     <cleanupDaemonThreads>false</cleanupDaemonThreads>
                 </configuration>
             </plugin>
